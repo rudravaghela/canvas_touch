@@ -20,6 +20,8 @@ if (width < 992 )
     {
 
         console.log("my_touchstart");
+         color = document.getElementById("color").value ;
+    width_of_line = document.getElementById("width").value;
          current_position_of_touch_x = e.touches[0].clientX - canvas.offsetLeft;
          current_position_of_touch_y = e.touches[0].clientY - canvas.offsetTop;
 
